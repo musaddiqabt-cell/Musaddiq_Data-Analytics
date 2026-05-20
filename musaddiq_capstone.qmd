@@ -5,6 +5,7 @@ date: today
 format:
   html:
     theme: flatly
+    css: custom.css
     toc: true
     toc-depth: 3
     code-fold: true

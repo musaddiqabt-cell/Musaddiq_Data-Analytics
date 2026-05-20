@@ -1,0 +1,184 @@
+/* ── Typography ─────────────────────────────────────────────────────────── */
+body {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #2c2c2c;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+h1.title {
+  font-size: 2rem;
+  color: #1a3c34;
+  border-bottom: 3px solid #4a8c6f;
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.25rem;
+}
+
+h2 {
+  color: #1a3c34;
+  border-left: 4px solid #4a8c6f;
+  padding-left: 0.6rem;
+  margin-top: 2rem;
+}
+
+h3 {
+  color: #2e5d4b;
+}
+
+/* ── Author / date block ────────────────────────────────────────────────── */
+p.author, p.date {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #5a6a60;
+  font-size: 0.95rem;
+  margin: 0.1rem 0;
+}
+
+/* ── Links ──────────────────────────────────────────────────────────────── */
+a {
+  color: #2e7d52;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #1a5c38;
+}
+
+/* ── Navigation / TOC ───────────────────────────────────────────────────── */
+#TOC {
+  background: #f4f9f6;
+  border: 1px solid #c8ddd2;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 0.88rem;
+}
+
+#TOC a {
+  color: #2e5d4b;
+}
+
+#TOC a:hover {
+  color: #1a3c34;
+  font-weight: 600;
+}
+
+/* ── Horizontal rules ───────────────────────────────────────────────────── */
+hr {
+  border: none;
+  border-top: 1px solid #c8ddd2;
+  margin: 2rem 0;
+}
+
+/* ── Blockquotes ────────────────────────────────────────────────────────── */
+blockquote {
+  border-left: 4px solid #4a8c6f;
+  background: #f4f9f6;
+  color: #3a5045;
+  padding: 0.75rem 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: 0 4px 4px 0;
+  font-style: italic;
+}
+
+/* ── Tables ─────────────────────────────────────────────────────────────── */
+table {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 0.9rem;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.25rem 0;
+}
+
+th {
+  background-color: #1a3c34;
+  color: #ffffff;
+  padding: 0.6rem 0.9rem;
+  text-align: left;
+}
+
+td {
+  padding: 0.5rem 0.9rem;
+  border-bottom: 1px solid #dce8e2;
+}
+
+tr:nth-child(even) td {
+  background-color: #f4f9f6;
+}
+
+tr:hover td {
+  background-color: #e8f2ec;
+}
+
+/* ── Code blocks ────────────────────────────────────────────────────────── */
+pre {
+  background: #f6f8f6;
+  border: 1px solid #d0e0d5;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 0.85rem;
+  overflow-x: auto;
+}
+
+code {
+  font-size: 0.88rem;
+  color: #1a5c38;
+  background: #eef5f1;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+pre code {
+  background: none;
+  color: inherit;
+  padding: 0;
+}
+
+/* ── Code-fold toggle ───────────────────────────────────────────────────── */
+details summary {
+  cursor: pointer;
+  color: #2e7d52;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+/* ── Callout / alert boxes ──────────────────────────────────────────────── */
+.callout {
+  border-radius: 5px;
+  border-left-width: 4px;
+}
+
+/* ── Panel tabset tabs ───────────────────────────────────────────────────── */
+.panel-tabset .nav-tabs .nav-link.active {
+  background-color: #1a3c34;
+  color: #ffffff;
+  border-color: #1a3c34;
+}
+
+.panel-tabset .nav-tabs .nav-link {
+  color: #2e5d4b;
+}
+
+/* ── Figures ────────────────────────────────────────────────────────────── */
+figure {
+  margin: 1.5rem 0;
+}
+
+figcaption {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 0.82rem;
+  color: #5a6a60;
+  text-align: center;
+  margin-top: 0.4rem;
+}
+
+/* ── Responsive max-width ───────────────────────────────────────────────── */
+.quarto-container {
+  max-width: 960px;
+}
