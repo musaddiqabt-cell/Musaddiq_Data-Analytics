@@ -48,9 +48,9 @@ plt.rcParams["figure.dpi"] = 150
 
 ## 1. Executive Summary
 
-**Business problem:** As Managing Director of Pluck Agro, a gum arabic export business supplying European confectionery and pharmaceutical buyers, my primary commercial obligation is to protect EUR invoice value on every consignment. Gum arabic quality is directly measurable — moisture content, grade classification, and turnaround speed from sourcing to loading are the three operational levers that determine whether a shipment achieves premium pricing or incurs buyer penalties. This analysis uses Pluck Agro's internal shipment register to identify which combination of sourcing region, grade, and handling practices best protects export value.
+**Business problem:** As Managing Director of a gum arabic export business supplying European confectionery and pharmaceutical buyers, my primary commercial obligation is to protect EUR invoice value on every consignment. Gum arabic quality is directly measurable — moisture content, grade classification, and turnaround speed from sourcing to loading are the three operational levers that determine whether a shipment achieves premium pricing or incurs buyer penalties. This analysis uses the Company's Agro's internal shipment register to identify which combination of sourcing region, grade, and handling practices best protects export value.
 
-**Data collected:** 100 shipment records from Pluck Agro's export register covering sourcing regions across Bornu, Yobe, Jigawa, and Kano states. Variables include grade (Grade 1 — Acacia Senegal; Grade 2 — Acacia Seyal), moisture content (%), turnaround days from sourcing to loading, and EUR invoice value.
+**Data collected:** 100 shipment records from Company's Agro's export register covering sourcing regions across Bornu, Yobe, Jigawa, and Kano states. Variables include grade (Grade 1 — Acacia Senegal; Grade 2 — Acacia Seyal), moisture content (%), turnaround days from sourcing to loading, and EUR invoice value.
 
 **Key findings:**
 1. Moisture content and grade are the strongest predictors of export value; Grade 1 (Acacia Senegal) commands a statistically significant EUR premium over Grade 2.
@@ -65,10 +65,9 @@ plt.rcParams["figure.dpi"] = 150
 ## 2. Professional Disclosure
 
 **Job title:** Managing Director  
-**Organisation:** Pluck Agro  
 **Organisation sector:** Agro-commodity export (gum arabic)
 
-As Managing Director of Pluck Agro, I oversee the sourcing, quality control, and export of gum arabic — primarily Grade 1 (Acacia Senegal) for premium European buyers — from four Northern Nigerian states: Bornu, Yobe, Jigawa, and Kano. My commercial responsibility is to protect EUR invoice value by managing the two factors that European buyers penalise most heavily: moisture content above the 12% specification threshold, and shipment delays that create financing cost and contract performance risk. This analysis applies five analytical techniques to the shipment register to build an evidence-based quality governance framework directly applicable to supplier management and procurement scheduling.
+As Managing Director, I oversee the sourcing, quality control, and export of gum arabic — primarily Grade 1 (Acacia Senegal) for premium European buyers — from four Northern Nigerian states: Bornu, Yobe, Jigawa, and Kano. My commercial responsibility is to protect EUR invoice value by managing the two factors that European buyers penalise most heavily: moisture content above the 12% specification threshold, and shipment delays that create financing cost and contract performance risk. This analysis applies five analytical techniques to the shipment register to build an evidence-based quality governance framework directly applicable to supplier management and procurement scheduling.
 
 ### Technique 1 — Exploratory Data Analysis
 As MD, before setting sourcing targets or adjusting pre-export protocols, I need to understand the baseline performance of the portfolio: the distribution of moisture content by sourcing region, the grade composition of shipments, and whether EUR value is concentrated in specific region-grade combinations. EDA identifies whether quality problems are widespread systemic issues or isolated events. A Pareto analysis of moisture exceedances by region is particularly important: if 80% of out-of-spec shipments originate from one or two regions, targeted drying infrastructure investment in those regions is more efficient than a blanket protocol change.
@@ -568,4 +567,4 @@ Five analytical techniques converge on a unified quality economics framework for
 
 ## Appendix: AI Usage Statement
 
-GitHub Copilot (Microsoft) and ChatGPT (OpenAI) were used to accelerate document structuring, code templating in R and Python, and review of statistical workflow logic. All analytical decisions — technique selection, hypothesis formulation, regression model specification, and the interpretation of outputs in terms of gum arabic export quality economics — were independently validated by the author against the actual model outputs generated from Pluck Agro's shipment register. The commercial recommendations regarding moisture threshold gates and regional sourcing policy reflect the author's independent professional judgement as Managing Director of Pluck Agro.
+GitHub Copilot (Microsoft) and ChatGPT (OpenAI) were used to accelerate document structuring, code templating in R and Python, and review of statistical workflow logic. All analytical decisions — technique selection, hypothesis formulation, regression model specification, and the interpretation of outputs in terms of gum arabic export quality economics — were independently validated by the author against the actual model outputs generated from the Company's internal shipment register. The commercial recommendations regarding moisture threshold gates and regional sourcing policy reflect the author's independent professional judgement as Managing Director of the Company.
